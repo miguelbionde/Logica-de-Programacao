@@ -13,7 +13,7 @@ programa
 				faca
 				{
 					numero = numero - 100
-					cem = cem + 1
+					cem++
 				}enquanto(numero >= 100)
 			}
 			se(numero >= 50)
@@ -21,7 +21,7 @@ programa
 				faca
 				{
 					numero = numero - 50
-					cinquenta = cinquenta + 1
+					cinquenta++
 				}enquanto(numero >= 50)
 			}
 			se(numero >= 20)
@@ -29,7 +29,7 @@ programa
 				faca
 				{
 					numero = numero - 20
-					vinte = vinte + 1
+					vinte++
 				}enquanto(numero >= 20)
 			}
 			se(numero >= 10)
@@ -37,7 +37,7 @@ programa
 				faca
 				{
 					numero = numero - 10
-					dez = dez + 1
+					dez++
 				}enquanto(numero >= 10)
 			}
 			se(numero >= 5)
@@ -45,15 +45,23 @@ programa
 				faca
 				{
 					numero = numero - 5
-					cinco = cinco + 1
+					cinco++
 				}enquanto(numero >= 5)
 			}
+			se(numero >= 2)
+			{
+				faca
+				{
+					numero = numero - 2
+					dois++
+				}enquanto(numero >= 2)
+			}	
 			se(numero >= 1)
 			{
 				faca
 				{
 					numero = numero - 1
-					um = um + 1
+					um++
 				}enquanto(numero >= 1)
 			}
 		}
